@@ -1,15 +1,12 @@
-package com.example.demoTest;
+package com.example.demoTest.sequenceHtmlCont;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Calendar;
 
 @Controller
-public class Hello01Controller {
+public class HtmlCont01Controller {
 
-    @GetMapping("/startc")
+    @GetMapping("/htmlcont")
     public String Start() {
         return "start.html";
     }

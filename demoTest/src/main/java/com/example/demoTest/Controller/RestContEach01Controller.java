@@ -1,13 +1,14 @@
-package com.example.demoTest;
+package com.example.demoTest.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class ExamRest01Controller {
-    @GetMapping("/startrc")
+public class RestContEach01Controller {
+
+    @GetMapping("/restconteach")
     public String StartRest() {
-        return "Start Rest Controller . . . .";
+        return "Start Rest Controller in Package. . . . .";
     }
 
 }
